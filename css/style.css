@@ -219,7 +219,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d96b4da8', endColorstr='#d94977c2', GradientType=1 ); /* IE6-9 */
 }
 .section-title.center {
-	padding: 25px 0 45px 0;
+	/*padding: 25px 0 45px 0;*/
 }
 /* About Section */
 #about {
@@ -302,6 +302,7 @@ ol.type li {
 	display: inline-block;
 	margin-left: 20px;
 	text-transform: uppercase;
+	padding-top: 40px;
 }
 ol.type li a {
 	background: transparent;
