@@ -296,6 +296,7 @@
                 </div>
                 <div class="col-md-8 col-md-offset-2">
                     <form name="sentMessage" id="contactForm" novalidate>
+                      <div id="success-message" class="alert alert-dismissible alert-success display-none" style="display: none;"></div>
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
@@ -306,6 +307,12 @@
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <input type="email" id="email" name="email" class="form-control" placeholder="Email" required="required">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <input type="text" id="phone" name="phone" class="form-control" placeholder="Phone" required="required">
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
